@@ -2,8 +2,8 @@ package com.t1.task3;
 
 import org.springframework.boot.context.properties.ConfigurationProperties;
 
-@ConfigurationProperties(prefix = "aspect")
-public class AspectProperties {
+@ConfigurationProperties(prefix = "log.config")
+public class LoggingAspectProperties {
 
     private String logLevel = "info";
 
